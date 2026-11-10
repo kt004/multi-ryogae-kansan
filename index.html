@@ -45,6 +45,7 @@ section{display:grid;gap:.5rem;align-content:start}
 a{color:var(--accent)}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .todo{background:color-mix(in srgb,var(--accent) 14%,transparent);padding:.1em .4em;border-radius:.25rem;font-weight:700}
+#en{display:grid;gap:2rem;border-top:1px solid var(--line);padding-top:2.5rem;font-family:-apple-system,"Helvetica Neue",Arial,var(--body)}
 footer{color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;font-size:.9rem}
 @media (max-width:760px){.cols{grid-template-columns:1fr}main{padding:2rem 16px 5rem}h1{font-size:1.6rem;padding-right:0}th{white-space:normal}}
 </style>
@@ -54,6 +55,7 @@ footer{color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;font
 <header>
   <h1>マルチ両替換算 プライバシーポリシー</h1>
   <p class="lead">このアプリは、あなたの情報を集めません。入力した内容は、あなたの iPhone の中だけに保存します。</p>
+  <p><a href="#en" lang="en">English version below</a></p>
 </header>
 <div class="wrap"><table>
   <thead><tr><th scope="col">項目</th><th scope="col">扱い</th><th scope="col">内容</th></tr></thead>
@@ -87,7 +89,45 @@ footer{color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;font
     <p>アプリの機能が変わり、情報の扱いが変わるときは、このページを更新します。</p>
   </section>
 </div>
-<footer>制定日: 2026年11月8日</footer>
+<div id="en" lang="en">
+<header>
+  <h1>MyFX (マルチ両替換算) Privacy Policy</h1>
+  <p class="lead">This app does not collect your information. Everything you enter is stored only on your iPhone.</p>
+</header>
+<div class="wrap"><table>
+  <thead><tr><th scope="col">Item</th><th scope="col">Status</th><th scope="col">Details</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Personal data collection</th><td class="v">None</td><td>The app does not ask for your name, email address, location or any other personal data. No account is required.</td></tr>
+    <tr><th scope="row">Network</th><td class="v">None</td><td>The app does not connect to the internet. It does not fetch exchange rates automatically.</td></tr>
+    <tr><th scope="row">Ads and tracking</th><td class="v">None</td><td>The app shows no ads and contains no analytics tools.</td></tr>
+    <tr><th scope="row">Sharing with third parties</th><td class="v">None</td><td>The developer never receives what you enter, so nothing is shared with third parties.</td></tr>
+  </tbody>
+</table></div>
+<div class="cols">
+  <section>
+    <h2>What is stored on your iPhone</h2>
+    <ul>
+      <li>Currency names, rates and the last amount you entered</li>
+      <li>Appearance, color and text size settings</li>
+    </ul>
+    <p>Deleting the app removes this data from your iPhone. If you back up your iPhone to iCloud or a Mac, the data may be included in the backup, which is managed by Apple and your own settings.</p>
+  </section>
+  <section id="support-en">
+    <h2>How to use / Contact</h2>
+    <ul>
+      <li>Tap "Set Currencies &amp; Rates" to add a currency and enter its rate, for example "1.09 USD = 1 EUR".</li>
+      <li>Type an amount in any currency and all the others update together.</li>
+      <li>Rates are not updated automatically. Enter the rate from your exchange counter or card issuer. Results are estimates; the actual amount may differ because of fees.</li>
+    </ul>
+    <p>Contact: please post on <a href="https://github.com/kt004/multi-ryogae-kansan/issues">GitHub Issues</a> (a GitHub account is required).</p>
+  </section>
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If the app's features change the way information is handled, this page will be updated.</p>
+  </section>
+</div>
+</div>
+<footer>制定日: 2026年11月8日 ／ 英語版追加: 2026年11月10日 (English version added: November 10, 2026)</footer>
 </main>
 <!-- ts:start -->
 <style id="ts-style">
